@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="572bd991-f1f5-4b66-84c2-20be469eca27" name="변경" comment="- 클래스 추출 학습 완료">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch01/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch01/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02/database/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02/database/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02/findInt/FindInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02/findInt/FindInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,33 +34,45 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2Orr5HVwCIkGujllhffVtoB4aoe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/java-refactoring/src/ch06&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programming/java-refactoring/src/ch06",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.ch01.Main.executor": "Run",
+    "애플리케이션.ch02.database.Main.executor": "Run",
+    "애플리케이션.ch03.Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\java-refactoring\src\ch06" />
       <recent name="D:\Programming\java-refactoring\src\ch05" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ch06.Main">
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch04.Main" />
       <module name="java-refactoring" />
@@ -69,12 +86,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch05.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.Main" />
+    <configuration name="ch01.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch01.Main" />
       <module name="java-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch05.*" />
+          <option name="PATTERN" value="ch01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch02.database.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.database.Main" />
+      <module name="java-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch02.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch03.Main" />
+      <module name="java-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,9 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ch06.Main" />
-        <item itemvalue="애플리케이션.ch05.Main" />
         <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.ch03.Main" />
+        <item itemvalue="애플리케이션.ch02.database.Main" />
+        <item itemvalue="애플리케이션.ch01.Main" />
+        <item itemvalue="애플리케이션.ch06.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +159,7 @@
       <workItem from="1682329357930" duration="531000" />
       <workItem from="1682329902137" duration="4047000" />
       <workItem from="1682337988409" duration="9000" />
+      <workItem from="1703461321601" duration="3726000" />
     </task>
     <task id="LOCAL-00001" summary="- 클래스 추출 학습 완료">
       <created>1682337756729</created>
@@ -138,5 +184,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- 클래스 추출 학습 완료" />
     <option name="LAST_COMMIT_MESSAGE" value="- 클래스 추출 학습 완료" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

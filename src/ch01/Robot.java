@@ -1,25 +1,27 @@
 package ch01;
 
+import static ch01.Robot.Command.*;
+
 public class Robot {
     private final String _name;
-
-    public static final RobotCommand COMMAND_WALK = new RobotCommand("WALK");
-    public static final RobotCommand COMMAND_STOP = new RobotCommand("STOP");
-    public static final RobotCommand COMMAND_JUMP = new RobotCommand("JUMP");
 
     public Robot(String name) {
         this._name = name;
     }
 
-    public void order(RobotCommand command) {
-        if (command == COMMAND_WALK) {
+    public void order(Robot.Command command) {
+        if (command == WALK) {
             System.out.println(_name + " walks");
-        } else if (command == COMMAND_STOP) {
+        } else if (command == STOP) {
             System.out.println(_name + " stops.");
-        } else if (command == COMMAND_JUMP) {
+        } else if (command == JUMP) {
             System.out.println(_name + " jumps.");
         } else {
             System.out.println("Command error. command = " + command);
         }
+    }
+
+    enum Command {
+        WALK, STOP, JUMP;
     }
 }

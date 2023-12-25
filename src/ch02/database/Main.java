@@ -6,7 +6,7 @@ import java.util.Iterator;
 public class Main {
     public static void main(String[] args) {
         try {
-            SimpleDatabase db = new SimpleDatabase(new FileReader("C:/Users/JSW/IdeaProjects/java-refactoring/src/ch02/database/dbfile.txt"));
+            SimpleDatabase db = new SimpleDatabase(new FileReader("src/ch02/database/dbfile.txt"));
             Iterator<String> it = db.iterator();
 
             while (it.hasNext()) {
